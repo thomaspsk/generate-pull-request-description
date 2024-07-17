@@ -79,4 +79,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: octue/generate-pull-request-description:${{ needs.tests.outputs.package_version }},octue/generate-pull-request-description:latest
+          tags: thomaspsk/generate-pull-request-description:${{ needs.tests.outputs.package_version }},thomaspsk/generate-pull-request-description:latest
