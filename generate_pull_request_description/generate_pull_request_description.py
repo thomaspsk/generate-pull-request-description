@@ -71,7 +71,7 @@ class PullRequestDescriptionGenerator:
         pull_request_url=None,
         api_token=None,
         header="# Contents",
-        list_item_symbol="-",
+        list_item_symbol='',
         commit_codes_to_headings_mapping=None,
         include_link_to_pull_request=True,
     ):
@@ -96,7 +96,7 @@ class PullRequestDescriptionGenerator:
 
         logger.info(f"Using {self.stop_point!r} stop point.")
 
-    def generate(self):
+    def generate(self) -> str:
         """Generate a pull request description from the commit messages since the given stop point, sorting them into
         headed sections according to their commit codes via the commit-codes-to-headings mapping. If the previous set
         of release notes have been provided then:
@@ -339,30 +339,15 @@ class PullRequestDescriptionGenerator:
         :param int breaking_change_count: the number of breaking changes
         :return str:
         """
-        if self.current_pull_request is not None and self.include_link_to_pull_request:
-            link_to_pull_request = (
-                f" ([#{self.current_pull_request['number']}]({self.current_pull_request['html_url']}))"
-            )
-        else:
-            link_to_pull_request = ""
 
-        contents_section = f"{self.header}{link_to_pull_request}\n\n"
-
-        if breaking_change_count:
-            contents_section += self._create_breaking_change_warning(breaking_change_count)
-
+        sections = []
         for heading, notes in categorised_commit_messages.items():
-            # Save "Other" and "Uncategorised" sections for end of release notes.
-            if not notes or heading in {OTHER_SECTION_HEADING, UNCATEGORISED_SECTION_HEADING}:
-                continue
+            if notes:
+                section = self._create_contents_subsection(heading=heading, notes=notes)
+                if section:
+                    sections.append(section)
 
-            contents_section += self._create_contents_subsection(heading=heading, notes=notes)
-
-        for heading in (OTHER_SECTION_HEADING, UNCATEGORISED_SECTION_HEADING):
-            if notes := categorised_commit_messages[heading]:
-                contents_section += self._create_contents_subsection(heading=heading, notes=notes)
-
-        return contents_section
+        return '\n' + ','.join(sections).strip() + '\n\n'
 
     def _create_breaking_change_warning(self, breaking_change_count):
         """Create a breaking change warning string.
@@ -383,8 +368,14 @@ class PullRequestDescriptionGenerator:
         :param list(str) notes:
         :return str:
         """
-        note_lines = "\n".join(self.list_item_symbol + " " + note for note in notes)
-        return f"{heading}\n{note_lines}\n\n"
+        ticket_re = re.compile(r"[a-zA-Z]{2,5}-\d+")
+        tickets = []
+        for note in notes:
+            matches = ticket_re.findall(note)
+            for match in matches:
+                tickets.append(match)
+        note_lines = ",".join(self.list_item_symbol + " " + note for note in tickets)
+        return f"{note_lines}"
 
     def _create_breaking_change_upgrade_section(self, upgrade_instructions):
         """Create an upgrade section explaining how to update to deal with breaking changes.
@@ -441,21 +432,16 @@ def main(argv=None):
         help="The MarkDown list item symbol to use for listing commit messages in the release notes. Default is '- '",
     )
 
-    parser.add_argument(
-        "--no-link-to-pull-request",
-        action="store_true",
-        help="If provided, don't add a link to the given pull request in the release notes.",
-    )
-
     args = parser.parse_args(argv)
 
     release_notes = PullRequestDescriptionGenerator(
         stop_point=args.stop_point,
         pull_request_url=args.pull_request_url,
         api_token=args.api_token,
-        header=args.header,
-        list_item_symbol=args.list_item_symbol,
-        include_link_to_pull_request=not args.no_link_to_pull_request,
+        header='',
+        list_item_symbol='',
+        include_link_to_pull_request=False,
+        commit_codes_to_headings_mapping={},
     ).generate()
 
     print(release_notes)
