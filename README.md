@@ -24,7 +24,7 @@ the description each time you push:
 steps:
 - uses: actions/checkout@v3
 
-- uses: thomaspsk/generate-pull-request-description@0.1.0
+- uses: thomaspsk/generate-pull-request-description@0.1.1
   id: pr-description
   with:
     pull_request_url: ${{ github.event.pull_request.url }}

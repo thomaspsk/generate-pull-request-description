@@ -25,7 +25,7 @@ outputs:
 
 runs:
    using: 'docker'
-   image: 'docker://thomaspsk/generate-pull-request-description:0.1.0'
+   image: 'docker://thomaspsk/generate-pull-request-description:0.1.1'
    args:
      - ${{ inputs.pull_request_url }}
      - ${{ inputs.api_token }}
