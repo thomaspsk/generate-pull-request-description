@@ -21,6 +21,7 @@ MOCK_PULL_REQUEST_COMMITS = [
     {"commit": {"message": "ENH: BUTT-20 - Support getting versions from poetry and npm"}},
     {"commit": {"message": "FIX: BIG-1 - Fix semantic version script; add missing config"}},
     {"commit": {"message": "NF: DEVOPS-999 - Fish are friends, not food"}},
+    {"commit": {"message": "NF: DEVOPS-999 - Fish are friends, not food"}},  # Add duplicate key to test dedup-ing
 ]
 
 EXPECTED_PULL_REQUEST_START_RELEASE_NOTES_WITH_NON_GENERATED_SECTION = "\n".join(
