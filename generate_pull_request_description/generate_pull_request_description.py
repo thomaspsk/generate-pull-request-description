@@ -361,7 +361,7 @@ class PullRequestDescriptionGenerator:
         return f"**IMPORTANT:** There are {breaking_change_count} breaking changes.\n\n"
 
     def _create_contents_subsection(self, heading, notes):
-        """Create a section of the release notes with the given heading followed by th5e given notes formatted into a
+        """Create a section of the release notes with the given heading followed by the given notes formatted into a
         bulleted list.
 
         :param str heading:
@@ -374,7 +374,8 @@ class PullRequestDescriptionGenerator:
             matches = ticket_re.findall(note)
             for match in matches:
                 tickets.append(match)
-        note_lines = ",".join(self.list_item_symbol + " " + note for note in tickets)
+        # Dedup keys maintaining insertion order using dict.fromkeys(tickets).keys() instead of set(tickets)
+        note_lines = ",".join(self.list_item_symbol + " " + note for note in dict.fromkeys(tickets).keys())
         return f"{note_lines}"
 
     def _create_breaking_change_upgrade_section(self, upgrade_instructions):
