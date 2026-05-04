@@ -1,0 +1,1142 @@
+[
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-03-31T15:57:45Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-03-31T15:57:45Z"
+            },
+            "message": "DM: UAT -> STAGING (#1436)\n\n* HOTFIX: TOM-4508 - Update Job Ids (#1422)\n\nCo-authored-by: James Mesich <james@perion.com>\n\n* HOTFIX: TOM-4539 - Error when creating configuration to crunch custom audience (#1433)\n\n* HOTFIX: TOM-4539 - Handle error response\n\n* Add notification message\n\n---------\n\nCo-authored-by: Tom Kearvell <tom@perion.com>\nCo-authored-by: Chandru Thimmampatti Ganesan <chandru@perion.com>\nCo-authored-by: James Mesich <james@perion.com>",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-03-31T15:57:45Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-01T20:15:19Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-01T20:15:19Z"
+            },
+            "message": "DM: UAT -> STAGING\n\nDM: UAT -> STAGING",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-01T20:15:19Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            },
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-07T18:18:59Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-07T18:18:59Z"
+            },
+            "message": "DM: UAT -> STAGING\n\nDM: UAT -> STAGING",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-07T18:18:59Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            },
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-15T13:10:36Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-15T13:10:36Z"
+            },
+            "message": "FIX: TOM-4598 - SGC custom audience bug (#1449)\n\n* FIX: TOM-4598 - SGC CUSTOM AUDIENCE IMPROVEMENTS\n\n* Remove console log\n\n* Add comment",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-15T13:10:37Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-15T21:05:46Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-15T21:05:46Z"
+            },
+            "message": "NF: DATA-199 - LineItemDetails Rewrite + More (#1414)\n\n* NF: DATA-199 - LineItemDetails Rewrite + More\n\n* Update brood partner keys\n\n* Huge refactor - not finished\n\n* Feature parity + bug fixes\n\n* Linting\n\n* Super linting - ignore for review\n\n---------\n\nCo-authored-by: Thomas Kearvell <tom@hivestack.com>",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-15T21:05:47Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-15T21:15:25Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-15T21:15:25Z"
+            },
+            "message": "FEAT: DP-1112 - Play export optional keys (#1451)\n\n* feat: play export optional keys\n\n* fix: force to bool\n\n---------\n\nCo-authored-by: Tom Kearvell <tom@perion.com>",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-15T21:15:26Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-16T16:13:52Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-16T16:13:52Z"
+            },
+            "message": "NF: DATA-200 - Upgrade Dependencies (#1453)\n\n* NF: DATA-200 - Upgrade Dependencies\n\n* NF: DATA-200 - Upgrade Dependencies - update 1\n\n* NF: DATA-200 - Upgrade Dependencies - update 2\n\n* NF: DATA-200 - Upgrade Dependencies - update 3\n\n* NF: DATA-200 - Upgrade Dependencies - update 4\n\n* NF: DATA-200 - Upgrade Dependencies - update 5\n\n---------\n\nCo-authored-by: Thomas Kearvell <tom@hivestack.com>",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-16T16:13:53Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-16T20:14:42Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-16T20:14:42Z"
+            },
+            "message": "FEAT: DP-1111 - Accept more characters s3 prefix (#1424)\n\n* fix: accept more characters s3 prefix\n\n* fix: regex\n\n---------\n\nCo-authored-by: Tom Kearvell <tom@perion.com>",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-16T20:14:42Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-16T20:26:26Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-16T20:26:26Z"
+            },
+            "message": "FIX: DP-1183 - Update attributes format (#1454)\n\n* fix: update attributes format\n\n* fix: population\n\n* fix: submission and fixing bad BE data (no BE validation wow)\n\n---------\n\nCo-authored-by: Tom Kearvell <tom@perion.com>",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-16T20:26:27Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-16T20:30:06Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-16T20:30:06Z"
+            },
+            "message": "NF: DATA-200 - Update router to remove next() and return values",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-16T20:30:48Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-16T20:30:48Z"
+            },
+            "message": "NF: DATA-200 - Update router to remove next() and return values",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-22T14:33:02Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-22T14:33:02Z"
+            },
+            "message": "Merge branch 'staging' into dm-uat-to-staging-b2c182be",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            },
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-22T14:33:29Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-22T14:33:29Z"
+            },
+            "message": "Merge pull request #1461 from Perion-Hivestack/dm-uat-to-staging-b2c182be\n\nDM: UAT -> STAGING",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-22T14:33:30Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            },
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-22T16:06:39Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-22T16:06:39Z"
+            },
+            "message": "Merge branch 'staging' into dm-uat-to-staging-802d0b0c",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-22T16:06:39Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            },
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-22T16:07:40Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-04-22T16:07:40Z"
+            },
+            "message": "Merge pull request #1464 from Perion-Hivestack/dm-uat-to-staging-802d0b0c\n\nDM: UAT -> STAGING",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-04-22T16:07:40Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            },
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    }
+]

@@ -368,7 +368,7 @@ class PullRequestDescriptionGenerator:
         :param list(str) notes:
         :return str:
         """
-        ticket_re = re.compile(r"[a-zA-Z]{2,8}-\d+")
+        ticket_re = re.compile(r"(?<![-a-zA-Z])[a-zA-Z]{2,8}-\d+")
         tickets = []
         for note in notes:
             matches = ticket_re.findall(note)
