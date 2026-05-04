@@ -340,14 +340,14 @@ class PullRequestDescriptionGenerator:
         :return str:
         """
 
-        sections = []
-        for heading, notes in categorised_commit_messages.items():
+        all_tickets = []
+        for _, notes in categorised_commit_messages.items():
             if notes:
-                section = self._create_contents_subsection(heading=heading, notes=notes)
-                if section:
-                    sections.append(section)
+                tickets = self._create_contents_subsection(notes)
+                if tickets:
+                    all_tickets.extend(tickets)
 
-        return '\n' + ','.join(sections).strip() + '\n\n'
+        return '\n' + ', '.join(sorted(set(all_tickets))) + '\n\n'
 
     def _create_breaking_change_warning(self, breaking_change_count):
         """Create a breaking change warning string.
@@ -360,7 +360,7 @@ class PullRequestDescriptionGenerator:
 
         return f"**IMPORTANT:** There are {breaking_change_count} breaking changes.\n\n"
 
-    def _create_contents_subsection(self, heading, notes):
+    def _create_contents_subsection(self, notes) -> list[str]:
         """Create a section of the release notes with the given heading followed by the given notes formatted into a
         bulleted list.
 
@@ -368,15 +368,13 @@ class PullRequestDescriptionGenerator:
         :param list(str) notes:
         :return str:
         """
-        ticket_re = re.compile(r"[a-zA-Z]{2,6}-\d+")
+        ticket_re = re.compile(r"[a-zA-Z]{2,8}-\d+")
         tickets = []
         for note in notes:
             matches = ticket_re.findall(note)
             for match in matches:
-                tickets.append(match)
-        # Dedup keys maintaining insertion order using dict.fromkeys(tickets).keys() instead of set(tickets)
-        note_lines = ",".join(self.list_item_symbol + " " + note for note in dict.fromkeys(tickets).keys())
-        return f"{note_lines}"
+                tickets.append(match.strip())
+        return tickets
 
     def _create_breaking_change_upgrade_section(self, upgrade_instructions):
         """Create an upgrade section explaining how to update to deal with breaking changes.
