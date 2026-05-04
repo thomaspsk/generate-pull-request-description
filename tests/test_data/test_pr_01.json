@@ -1,0 +1,504 @@
+[
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-04T19:10:57Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-04T19:10:57Z"
+            },
+            "message": "FIX: HSDVOP-4103 - Add missing env vars in DR config\n\nFIX: HSDVOP-4103 Add missing env vars in DR config",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-02-04T19:10:58Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-05T14:31:08Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-05T14:31:08Z"
+            },
+            "message": "FIX: CAM-7460 - Fix order by in pagination for Targeted sites & units brief (#3327)",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-02-05T14:31:09Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-05T14:46:10Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-05T14:46:10Z"
+            },
+            "message": "FIX: HV-10144: Unitpack refresh endpoint concurrency issue (#3325)\n\n* HV-10144: Use insert or ignore\n\n* HV-10144: Remove obsolete docstring\n\n---------\n\nCo-authored-by: Francois Lopez <francoislopez@perion.com>",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-02-05T14:46:11Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-09T20:21:48Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-09T20:21:48Z"
+            },
+            "message": "DM: UAT -> STAGING\n\nDM: UAT -> STAGING",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-02-09T20:21:49Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            },
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-11T15:14:06Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-11T15:14:06Z"
+            },
+            "message": "FIX: HV-10150 - Force spatial index as a quick fix (#3332)\n\n* HV-10150: Force spatial index\n\n* HV-10150: Adjust test",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-02-11T15:14:06Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    },
+    {
+        "sha": "",
+        "node_id": "",
+        "commit": {
+            "author": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-11T16:00:31Z"
+            },
+            "committer": {
+                "name": "",
+                "email": "",
+                "date": "2026-02-11T16:00:31Z"
+            },
+            "message": "CI: DEPLOY UAT\n\nCI: DEPLOY UAT",
+            "tree": {
+                "sha": "",
+                "url": ""
+            },
+            "url": "",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "",
+                "payload": "",
+                "verified_at": "2026-02-11T16:00:31Z"
+            }
+        },
+        "url": "",
+        "html_url": "",
+        "comments_url": "",
+        "author": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "",
+            "id": 1,
+            "node_id": "",
+            "avatar_url": "",
+            "gravatar_id": "",
+            "url": "",
+            "html_url": "",
+            "followers_url": "",
+            "following_url": "",
+            "gists_url": "",
+            "starred_url": "",
+            "subscriptions_url": "",
+            "organizations_url": "",
+            "repos_url": "",
+            "events_url": "",
+            "received_events_url": "",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            },
+            {
+                "sha": "",
+                "url": "",
+                "html_url": ""
+            }
+        ]
+    }
+]
